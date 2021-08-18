@@ -46,12 +46,11 @@ fs.readFile('text.txt', function (err, data) {
         final = merge(final, result)
 
     }
-<<<<<<< HEAD
+
     fs.writeFileSync(path.join(__dirname, 'text.json'), JSON.stringify(final));
 }
 
 
 );
-=======
+
     
->>>>>>> 2c8dc90b261a739611a5830f6131f1da491ae041
