@@ -24,29 +24,3 @@ fs.readFile('text.txt', function (err, data) {
        
     }
     
-    
-    //     let arr = data.toString().split('\n');
-    //     let obj = {};
-    //     let nestedObj= {};
-    //     let key;
-    //     let bigKey;
-    //     let value;
-    //     arr.forEach((row) => {
-    //         if(row.includes('.')){
-    //             key = row.slice(row.lastIndexOf('.')+1, row.indexOf('='));
-    //             bigKey = row.slice(0, row.indexOf('.'))
-    //             value = row.slice(row.indexOf('=')+1);
-    //             nestedObj[key]=value;
-    //             obj[bigKey]=nestedObj;
-    //         }
-    //         else{
-    //             key = row.slice(0, row.indexOf('='));
-    //             value = row.slice(row.indexOf('=')+1);
-    //             obj[key] = value;
-    //         }
-    //     });
-    //   console.log(nestedObj);
-     }
-
-
-);
